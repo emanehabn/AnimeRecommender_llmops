@@ -13,7 +13,7 @@ from utils.custom_exceptions import CustomException
 
 load_dotenv()
 
-st.set_page_config(page_title="Smart Anime Recommender", layout="wide")
+st.set_page_config(page_title="Animating4U", layout="wide")
 
 
 @st.cache_resource
@@ -22,9 +22,9 @@ def init_pipeline():
 
 pipeline = init_pipeline()
 
-st.title("Smart Anime Recommendation System")
+st.title("I'm here so you can find your anime mate ❤️\n\n ")
 
-query = st.text_input("Enter your anime preferences: ")
+query = st.text_input("Describe your anime preferences: ")
 
 if query:
     with st.spinner("Fetching the animie for you"):
