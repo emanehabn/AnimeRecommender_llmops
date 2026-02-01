@@ -1,8 +1,7 @@
 .env
 
-venv
+venv/
 logs/
-chroma_db/
 
 *.pyc
 __pycache__/
