@@ -1,6 +1,5 @@
+venv
 .env
-
-venv/
 logs/
 
 *.pyc
@@ -9,3 +8,5 @@ __pycache__/
 *.egg-info/
 
 notes.txt
+.env
+chroma_db/
