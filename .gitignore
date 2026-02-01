@@ -1,0 +1,12 @@
+.env
+
+venv
+logs/
+chroma_db/
+
+*.pyc
+__pycache__/
+
+*.egg-info/
+
+notes.txt
