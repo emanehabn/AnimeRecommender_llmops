@@ -12,7 +12,7 @@ This system is built around a curated anime dataset, focusing on a real-world de
 
 **RAG Pipeline**
 - LangChain  
-- HuggingFace Embedding model (llama-3.1-8b-instant) 
+- GROQ Embedding model (llama-3.1-8b-instant) 
 - Vector Store (ChromaDB)
 
 **Infrastructure**
