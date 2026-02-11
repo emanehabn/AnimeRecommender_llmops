@@ -24,7 +24,7 @@ This system is built around a curated anime dataset, focusing on a real-world de
 
 ```bash
 # Clone the repository
-git clone [https://github.com/emanehabn/AnimeRecommender_llmops.git](https://github.com/emanehabn/AnimeRecommender_llmops.git)
+git clone https://github.com/emanehabn/AnimeRecommender_llmops.git
 cd AnimeRecommender_llmops
 streamlit run app/app.py 
 
@@ -35,7 +35,7 @@ cp .env.example .env  # Update your keys here
 pip install -e .
 
 # Run the app
-python app/main.py
+streamlit run app/app.py
 ```
 
 ---
